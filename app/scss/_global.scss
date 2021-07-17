@@ -1,0 +1,65 @@
+@import 'colors';
+html {
+	scroll-behavior: smooth;
+	scrollbar-color: $basic-green;
+  }
+html,
+body {
+	height: 100%;
+}
+body {
+	font-family: "Roboto", sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 27px;
+	color: #fff;
+	background-color: #000;
+	overflow-x: hidden;
+}
+
+
+.container{
+//   max-width: 290px;
+//   margin: 0 auto;
+padding: 0 15px;
+}
+.container-fluid {
+	max-width: 300px;
+	margin: 0 auto;
+}
+div.glide__bullets {
+	position: relative;
+	top: -20px;
+}
+.slick-dots li {
+	   & button {
+		width: 30px;
+		height: 2px;
+		border-radius: 3px;
+		border: none;
+		padding: 0;
+		background-color: rgba(#fff,0.8);
+	   }
+
+		&:not(:last-child){
+			margin-right: 15px;
+			
+		}
+		&.slick-active {
+			& button {
+				background-color: $basic-green;
+			}
+			
+		}
+
+}
+
+// Conditions 
+a:hover,
+a:focus {
+	color: $basic-green;
+}
+
+
+
+
