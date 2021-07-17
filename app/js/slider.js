@@ -1,4 +1,4 @@
-import './slick.min.js'
+
 $('.slider').slick({
     arrows: false,
     

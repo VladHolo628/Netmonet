@@ -1,5 +1,3 @@
-// import Glide from'./glide.esm.js'
-import './slider.js'
 
 const headerMenuBtn = document.querySelector('.header__menu-btn');
 const mobileMenu = document.querySelector('.header__menu-list');
